@@ -1,0 +1,36 @@
+[вівторок 9:37] Mert Uncu
+import java.util.Scanner;
+
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+public static void main(String[] args) {
+
+Scanner scan = new Scanner(System.in);
+
+String city = scan.nextLine();
+int age = scan.nextInt();
+boolean isThursday = scan.nextBoolean();
+double ticketPrice = calculateTicketPrice(city, age, isThursday);
+
+System.out.print("Data: " + city + ", ");
+
+System.out.print(age + "years old, ");
+
+System.out.print("weekday ticketPrice: " + ticketPrice + " PLN");
+
+}
+public static double calculateTicketPrice(String city, int age, boolean isThursday);
+double ticketPrice = 40;
+if(isThursday)return 0.0;
+if(age< 10)return 0.0;
+if(age <=18)
+
+ticketPrice =ticketPrice *0.5;
+
+}
+
+}
+
+}
